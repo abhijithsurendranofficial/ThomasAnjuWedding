@@ -1,4 +1,4 @@
-const weddingDate = new Date('2026-11-19T11:00:00+05:30');
+const weddingDate = new Date('2026-11-09T11:00:00+05:30');
 const countdownParts = {
   days: document.querySelector('#days'),
   hours: document.querySelector('#hours'),
@@ -56,10 +56,10 @@ function downloadCalendarInvite(event) {
     'PRODID:-//Thomas and Anju//Wedding Invitation//EN',
     'CALSCALE:GREGORIAN',
     'BEGIN:VEVENT',
-    'UID:thomas-anju-wedding-20261119@invitation.local',
+    'UID:thomas-anju-wedding-20261109@invitation.local',
     `DTSTAMP:${new Date().toISOString().replace(/[-:]/g, '').replace(/\.\d{3}/, '')}`,
-    'DTSTART;TZID=Asia/Kolkata:20261119T110000',
-    'DTEND;TZID=Asia/Kolkata:20261119T130000',
+    'DTSTART;TZID=Asia/Kolkata:20261109T110000',
+    'DTEND;TZID=Asia/Kolkata:20261109T130000',
     'SUMMARY:Wedding of Thomas and Anju',
     'LOCATION:Mar Gregorios Orthodox Church, Nalunnakkal, Kottayam',
     'DESCRIPTION:Wedding ceremony at 11:00 AM IST. Reception thereafter at St Adais Church Parish Hall, Nalunnakkal.',
